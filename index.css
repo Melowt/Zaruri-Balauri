@@ -1,0 +1,151 @@
+*   {
+font-family: "Open Sans", Arial, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("Assets/99388january-2013-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link {
+    color:rgb(43,43,43);
+}
+a:visited {
+    color:rgb(43,43,43);
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+a:hover {
+    color: silver;
+}
+.rand {
+    font-size: 1.125em;
+    line-height: 50px;
+    text-align: center;
+    background-color:white ;
+}
+.inline-list {
+    list-style: none;
+    display:inline-block;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    vertical-align: middle;
+}
+#brush {
+    background-color: gray;
+    height: 5px;
+}
+.bun_venit  {
+    position: absolute;
+    
+}
+#buna   {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-size: xx-large;
+    text-align: center;
+    color: #f9ba35;
+    background-color: transparent;
+    text-shadow: black 1px 0 10px;
+}
+.titlu1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: xxx-large;
+    text-align: center;
+    color: #f9ba35;
+    background-color: transparent;
+    text-shadow: black 1px 0 10px;
+}
+#dragon_logo    {
+    background-color: transparent;   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#gw2    {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -80px;
+    z-index: -1;
+}
+@media (max-width:1080px){
+
+        .button {
+            margin-top:20px ;
+        }        
+    }
+.celula1    {
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    margin-top: 7%;
+    transform: translate(-50%,0);
+}
+.celulaS    {
+    padding: 50px;
+    background-color: white;
+}
+.celulaD    {
+    background-color: #787878;
+    padding: 25px;
+    max-width: 400px;
+}
+.celulaS p  {
+    font-size: x-large;
+    width: 100%;
+}
+.celulaD p {
+    background-color: #787878;
+    font-size: x-large;
+    color:white;
+}
+.brushcontainer {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 1300px;
+}
+#brushdivider   {   
+    background-image: url("Assets/gray_brush-4e32a08d7a79315d82398beba04d8cd5baed5b80e80609a3d3824b8c1da585fd.png");
+    background-color: transparent;
+    height: 120px;
+    width: 100%;
+}
+#brush2 {
+    background-color: #efefef;
+    height: 30px;
+    bottom: 20px;
+}
+.button {
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #f9bc37;
+    box-shadow: 4px 4px 12px 2px ;
+    position: absolute;
+    left:50%;
+    margin-top: 30px;
+    transform: translate(-50%, -50%);
+}
+.istorie    {
+    background-color: transparent;
+    font-weight: bolder;
+    border: 0px;
+    cursor:pointer; 
+    font-size: larger;
+}

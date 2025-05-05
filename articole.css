@@ -1,0 +1,92 @@
+*   {
+font-family: "Open Sans", Arial, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(Assets/articole.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+
+}
+a:link {
+    color:rgb(43,43,43);
+}
+a:visited {
+    color:rgb(43,43,43);
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+a:hover {
+    color: silver;
+}
+.rand {
+    font-size: 1.125em;
+    line-height: 50px;
+    text-align: center;
+    background-color:white ;
+}
+.inline-list {
+    list-style: none;
+    display:inline-block;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    vertical-align: middle;
+}
+#brush {
+    background-color: gray;
+    height: 5px;
+}
+
+.post1  {
+    background-color: white;
+    position: absolute;
+    margin-top: 5%;
+    left:50%;
+    transform: translate(-50%,0);
+    width:55%;
+}
+.header {
+    border: 0;
+    background-color: #3a3a3a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding:10px;
+    padding-right: 0;
+}
+#titlu1{
+    font-weight: bold;
+    font-size: xx-large;
+    color:white;
+    text-align: center;
+}
+.chapter    {
+margin-left:25px ;
+margin-right: 25px;
+margin-bottom: 20px;
+line-height: 30px;
+
+}
+#brushdivider   {
+z-index: -1;
+background-color: transparent;
+height: 250px;
+width: 100%;
+position: absolute;
+bottom:-20%
+}
+#imagine    {
+    box-shadow: 5px 4px 20px black ;
+    width: 150px;
+    margin-right: 50px;
+}

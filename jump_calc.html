@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="jump_calc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator de sarit</title>
+</head>
+<body>
+    <section class="rand">
+        <a href="/"><img src="Assets/zaruri--balauri-high-resolution-logo.png" alt="Logo" class="logo"><img></a>
+        <ul class="inline-list">
+          <li> 
+            <a href="index.html" style="margin-left: 40px;margin-right: 20px;">Acasă</a>
+          </li>
+          <li>
+            <a href="istorie.html" style="margin-right: 20px">Istorie</a>
+          </li>
+          <li>
+            <a href="dnd.html" style="margin-right: 20px">Ce este dnd?</a>
+          </li>
+          <li>
+            <a href="caracter.html" style="margin-right: 20px">Caractere</a>
+          </li>
+          <li>
+            <a href="jump_calc.html" style="margin-right: 20px">Calculator de sărit</a>
+          </li>
+          <li>
+            <a href="articole.html">Articole</a>
+          </li>
+        </ul>
+      <div id="brush"></div>
+    </section>
+    <section>
+    </section>
+    <section>
+      <div class="post1">
+          <table class="header">
+            <tr>
+              <td id="titlu1"> Calculator de distanța săriturii</td>
+            </tr>
+            <tr style="display: flex;">
+              <td style="margin-right: 10px;">De Zaruri & Balauri,</td>
+              <td> 12.01.2025</td>
+            </tr>
+          </table>
+        <div class="chapter">
+          <h1 style="font-weight: 500;">Introduce valorile pentru a continua:</h1>
+          <form id="form">
+            <label for="strenght" style="font-weight: bold;">Strength score-ul Caracterului</label>
+            <br>
+              <input type="number" min="0" max="20" value="10" id="strength" name="strength" placeholder="             strength" required style="margin-bottom: 30px;">
+            <br>
+            <label for="feet,inches" style="font-weight: bold">Inaltimea Caracterului (feet & inches)</label>
+            <br>
+            <div>
+              <input type="number" min="0" value="6" id="feet" name="feet" placeholder="feet" required>
+              <input type="number" min= "0" value="10" id="inches" name="inches" placeholder="inches" required>
+            </div>
+            <br>
+            <div>
+              <input type="submit">
+            </div>
+          </form>
+        </div>
+        <div class="chapter">
+          <h1 style="font-weight: 500;">Sărituri din fugit (10 feet)</h1>
+          <table>
+            <tr>
+              <tc >Săritura lungă: </tc>
+              <tc id="RLJ" class="jump">?</tc>
+              <tc> feet</tc>
+            </tr>
+            <br>
+            <tr>
+              <tc >Săritura verticală: </tc>
+              <tc id="RHJ" class="jump">?</tc>
+              <tc> feet</tc>
+            </tr>
+          </table>
+          <h1 style="font-weight: 500;">Sărituri de pe loc</h1>
+          <table>
+            <tr>
+              <tc >Săritura lungă: </tc>
+              <tc id="SLJ" class="jump">?</tc>
+              <tc> feet</tc>
+            </tr>
+            <br>
+            <tr>
+              <tc >Săritura verticală: </tc>
+              <tc id="SHJ" class="jump">?</tc>
+              <tc> feet</tc>
+            </tr>
+          </table>
+        </div>
+        </div>
+</body>
+<script defer src="jump calc.js"></script>
+</html>
